@@ -61,3 +61,4 @@ AI tools were used during development to assist with specific parts of the proje
 - **Google Gemini**: Used for documentation preferences and organization, helping structure the README and technical documentation.
 
 All AI-generated code was reviewed, understood, and modified to fit the project's needs. For full details, see [docs/ai-usage-report.md](docs/ai-usage-report.md).
+# 202277140-Joudaljabri-assignment3
