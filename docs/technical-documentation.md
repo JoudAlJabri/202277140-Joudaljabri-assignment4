@@ -15,7 +15,7 @@ This portfolio is a three-page static website built with plain HTML, CSS, and Ja
 ## 2. Project Structure
 
 ```
-202277140-JoudALJabri-assignment2/
+202277140-JoudALJabri-assignment4/
 ├── index.html           # Main portfolio page
 ├── projects.html        # Full projects archive page
 |── blogs.html           # Full blogs page

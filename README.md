@@ -1,4 +1,4 @@
-# Joud Aljabri - Personal Portfolio Part ||| 🌺
+# Joud Aljabri - Personal Portfolio Part |||| 🌺
 
 A simple, responsive personal portfolio website built as part of a web development assignment. The site showcases my projects, tech skills, provides an introduction about me, and includes a contact form for reaching out.
 
@@ -13,7 +13,7 @@ A simple, responsive personal portfolio website built as part of a web developme
 - **Smooth scrolling** navigation between sections
 - **Responsive design** that adapts to desktop, tablet, and mobile screen sizes
 - **Projects Page** another page that includes more projects I have with filtering feature
-- **Blogs Page** A page I am still currently working on to display some of my perosnal and professional blogs
+- **Blogs Page** A page where I display some of my favorite moments from both univerity and travel as a visual diary.
 
 ## Tech Stack
 
@@ -23,25 +23,26 @@ A simple, responsive personal portfolio website built as part of a web developme
 
 ## Project Structure
 
-```
-202277140-JoudAljabri-assignment3/
-├── README.md
-├── index.html
-├── projects.html
+202277140-JoudALJabri-assignment4
+├── index.html           # Main portfolio page
+├── projects.html        # Full projects archive page
+|── blogs.html           # Full blogs page
 ├── css/
-│   └── styles.css
-|   └── projects.css
+│   ├── index.css        # Global styles + all index page section styles
+│   └── projects.css     # Styles specific to the projects archive page
+|   └── blogs.css        # Styles specific to the blogs page
 ├── js/
-│   └── script.js
+│   └── script.js        # All JavaScript features
 ├── assets/
-│   └── images/
-|   └── arrows/
-|   └── icons/
-|   └── sparkles/
-├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
-└── .gitignore
+│   ├── icons/           # SVG icons (GitHub, LinkedIn, Email)
+│   ├── images/          # Project screenshots
+│   └── sparkles/        # Decorative PNG assets
+└── docs/
+|    ├── technical-documentation.md
+|    └── ai-usage-report.md
+|-- presentation/
+    ├── demo-video.mp4
+    └── slides.mp4
 ```
 
 ## Setup Instructions
