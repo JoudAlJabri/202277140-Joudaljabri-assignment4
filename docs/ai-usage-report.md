@@ -5,11 +5,11 @@
 ### Claude Code
 - **Use case**: CSS code generation and JavaScript/API guidance
 - **How it was used**: Claude Code was used to generate portions of the CSS styling since its ALOT, including layout structure, responsive media queries, the cards of the projects like how to place the image in its way, and any duplications required. It was also used for guidance on implementing JavaScript functions such as the form submission handling becuase I am personally used to doing that in React, and the stars/sparkles animation in the main page. 
+For phase 4, I used Claude to consult on how to built the 2-level filtering in the Blogs page, suggesting the event listeners and parent-category tracking.
 
 ### Google Gemini
 - **Use case**: Documentation preferences and organization
-- **How it was used**: Gemini was used to help organize and structure the project documentation, including the README layout and the technical documentation file. It provided suggestions on how to present information clearly and in a well-organized format.
-
+- **How it was used**: Gemini was used to help organize and structure the project documentation, including the README layout and the technical documentation file. It provided suggestions on how to present information clearly and in a well-organized format.For phase 4, I used Gemini to clarify and help more on what best reflecting content to display in each slide. Suggested bullet point distribution and closing sentence as well.
 ## Benefits & Challenges
 
 ### Benefits

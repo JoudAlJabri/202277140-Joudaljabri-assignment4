@@ -1,38 +1,28 @@
 # Technical Documentation
 **Student:** Joud AlJabri — 202277140
-**Assignment:** 2 — Interactive Features Portfolio Website
+**Assignment:** 4 — Personal Web Application
 
 ---
 
 ## 1. Overview
 
-This portfolio is a two-page static website built with plain HTML, CSS, and JavaScript. It presents my work, skills, and contact information in a personal aesthetic I designed myself — dark background, soft pink and green accents, and serif typography using the Bellefair font.
+This portfolio is a three-page static website built with plain HTML, CSS, and JavaScript. It presents my work, skills, projects, blogs, and contact information in a personal aesthetic I designed myself — dark background, soft pink and green accents, and serif typography using the Bellefair font.
 
-The site was fully redesigned from Assignment 1. The original version followed a more generic layout structure. After reflecting on the feedback and revisiting the design, I rebuilt it from scratch to better reflect my personal style and make it feel genuinely mine rather than a template.
-
----
-
-## 2. Design Changes from Assignment 1
-
-The redesign was not just cosmetic — it involved restructuring the entire layout and CSS:
-
-- **Color palette:** Moved to a dark theme (`#1e1e1e` background) with `#FFA5C5` pink and `#BEEBA9` green as accent colors, chosen to match my personal aesthetic.
-- **Typography:** Switched to Bellefair (Google Fonts), a serif typeface that gives the site a softer, more editorial feel.
-- **Layout:** Hero section is now large and expressive with a floating sparkle animation. Sections flow naturally with generous padding instead of hard-bordered boxes.
-- **Navigation:** The navbar now includes actual navigation links (Home, Projects, Blogs) as well as a clickable logo that scrolls back to the top — directly addressing the Assignment 1 feedback that flagged the nav for having no links to page sections. I am still wokring perosnally on the Blogs Page 🥰.
 
 ---
 
 
-## 4. Project Structure
+## 2. Project Structure
 
 ```
 202277140-JoudALJabri-assignment2/
 ├── index.html           # Main portfolio page
 ├── projects.html        # Full projects archive page
+|── blogs.html           # Full blogs page
 ├── css/
 │   ├── index.css        # Global styles + all index page section styles
 │   └── projects.css     # Styles specific to the projects archive page
+|   └── blogs.css        # Styles specific to the blogs page
 ├── js/
 │   └── script.js        # All JavaScript features
 ├── assets/
@@ -40,11 +30,14 @@ The redesign was not just cosmetic — it involved restructuring the entire layo
 │   ├── images/          # Project screenshots
 │   └── sparkles/        # Decorative PNG assets
 └── docs/
-    ├── technical-documentation.md
-    └── ai-usage-report.md
+|    ├── technical-documentation.md
+|    └── ai-usage-report.md
+|-- presentation/
+    ├── demo-video.mp4
+    └── slides.mp4
 ```
 
-**CSS is organized into two files:** `index.css` handles global resets, CSS variables, the navbar, and every section on the main page. `projects.css` handles the layout and filter bar specific to the projects archive. This avoids loading unnecessary styles on each page.
+**CSS is organized into two files:** `index.css` handles global resets, CSS variables, the navbar, and every section on the main page. `projects.css` handles the layout and filter bar specific to the projects archive.  `blogs.css` handles the layout and 2-level filter bar specific to the blogs archive. This avoids loading unnecessary styles on each page.
 
 **JavaScript is centralized** in one `script.js` file, loaded at the bottom of `index.html`. `projects.html` has its own small inline script for the filter feature since it does not share the main script.
 
@@ -66,6 +59,9 @@ Contains the following sections in order:
 
 ### projects.html — Full Archive
 Contains all 13 projects with a filter bar that lets visitors filter by category: All, Mobile, Web, Python & Data, OOP, and UI/UX. Each project card has tags, a description, and links.
+
+### blogs.html - visual diary
+Contains a two-level filteration of both university and travel moments. The university also contains 3 sub filters only the first (at the moment) is filled which is the computer club section, inluding a time-line style display of my favorite perosnal moments as a leader in the club. 
 
 ---
 
@@ -146,13 +142,16 @@ Media queries handle layout changes at three breakpoints:
 
 ---
 
-## 9. Assignement 3 Requirements 
+## 9. Assignement 4 Requirements 
 
--  API Integration: Both quotes and github latest repo implemented
-- Complex Logic: Create a project page  that can be filtered and sorted according to the tech stack used, including UI/UX, Web, Mobile and more.
-- Complex Logic: Adde extra checks to contact forms filling like making sure fields are not empty.
-- State Management: Added a dialog box for prompting the visisor name when they first visit the website, and stored it in localStrorage for later calling and to remember the preference.
-- Performance: Compressed `MyFrame.png` from 1.5MB to under 200KB using WebP conversion via Squoosh. Added `loading="lazy"` to all project images so off-screen images are not downloaded until the user scrolls to them, reducing initial page load time.
+- Added a presentation section inlcuding both the slides and demos
+- Deployed the project using GitHub web pages.
+- Added a feature that represents me which is the Blogs page.
+- Re-checked and improved some of the performance and quality of the code, including:
+1. margin-top: 0.rem — invalid CSS, silently ignored (in index.css) → Changes to 0
+2. Blogs nav link pointed to index.html#blogs-placeholder (in project.html) → Fixed to blogs.html
+3. Google Fonts double-loaded (HTML <link> + CSS @import) (All 3 CSS files) → Removed @import (HTML link is faster).
+
 
 --- 
 
