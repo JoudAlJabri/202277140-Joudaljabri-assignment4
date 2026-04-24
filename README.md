@@ -2,6 +2,8 @@
 
 A simple, responsive personal portfolio website built as part of a web development assignment. The site showcases my projects, tech skills, provides an introduction about me, and includes a contact form for reaching out.
 
+#### **NOTE**: I added the Demo Video as a link in the README incase the mp4 video does not work ⬇️
+
 ## Features
 
 - **About Me** section with a time-based greeting, tagline, and personal introduction and accounts
