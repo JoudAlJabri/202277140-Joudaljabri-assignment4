@@ -23,6 +23,7 @@ A simple, responsive personal portfolio website built as part of a web developme
 
 ## Project Structure
 
+```
 202277140-JoudALJabri-assignment4
 ├── index.html           # Main portfolio page
 ├── projects.html        # Full projects archive page
