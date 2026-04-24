@@ -43,14 +43,18 @@ A simple, responsive personal portfolio website built as part of a web developme
 |    └── ai-usage-report.md
 |-- presentation/
     ├── demo-video.mp4
-    └── slides.mp4
+    └── slides.pdf
 ```
+
+## Demo Video
+
+[Watch the demo on Google Drive](https://drive.google.com/file/d/1MExzDIJwQafcA67sMWF5yg9KJjUIoFUk/view?usp=share_link)
 
 ## Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<JoudAlJabri>/202277140-JoudAljabri-assignment1.git
+   git clone https://github.com/JoudAlJabri/202277140-Joudaljabri-assignment4.git
    ```
 2. Open the project folder in your code editor (e.g., VS Code).
 3. Open `index.html` directly in your browser, or use a live server extension:
